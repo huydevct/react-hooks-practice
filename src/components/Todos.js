@@ -8,6 +8,14 @@ const Todos = () => {
   //load todos context
   const { todos } = useContext(TodoContext);
 
+  //useEffect
+  // useEffect(() => {
+  //   dispatch({
+  //     type: GET_TODOS,
+  //     payload: null,
+  //   })
+  // }, [dispatch])
+
   //load auth context
   const { isAuthenticated } = useContext(AuthContext);
 
